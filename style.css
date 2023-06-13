@@ -69,7 +69,7 @@ li {
 aside {
   background-color: #d5d5d5;
   border: 5px solid #1098ad;
-  border-bottom: 5px solid #f00
+  border-bottom: 5px solid #f00 /* intentionally left red */
 }
 
 body {
@@ -92,6 +92,30 @@ li:last-child {
   color: red;
 } */
 
-article p:last-child {
+/* Misconception: this won't work! */
+article p:first-child {
   color: red;
 }
+
+/* Styling links */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  /* color: #777; */
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+/* LVHA */
