@@ -40,7 +40,7 @@
           height="100px"
           width="100px"
         />
-        <p>Posted by <strong>John Snow</strong> on Monday, June 1st, 2099</p>
+        <p id="author">Posted by <strong>John Snow</strong> on Monday, June 1st, 2099</p>
         <img
           src="/images/post-img.jpg"
           alt="HTML code on a screen"
@@ -103,14 +103,14 @@
     </article>
     <aside>
       <h4>Related Posts</h4>
-      <ul>
+      <ul class="related">
         <li>
           <img
             src="images/related-1.jpg"
             alt="Man coding on a laptop"
             width="75px"
           /><a href="#">How to Learn Web Development</a>
-          <p>By Jonas Schmedtmann</p>
+          <p class="related-author">By Jonas Schmedtmann</p>
         </li>
         <li>
           <img
@@ -118,7 +118,7 @@
             alt="Lightning bolt striking ground"
             width="75px"
           /><a href="#">The Unknown Powers of CSS</a>
-          <p>By Jim Dillon</p>
+          <p class="related-author">By Jim Dillon</p>
         </li>
         <li>
           <img
@@ -126,12 +126,12 @@
             alt="Lines of JavaScript code"
             width="75px"
           /><a href="#">Why JavaScript is Awesome</a>
-          <p>By Matilda</p>
+          <p class="related-author">By Matilda</p>
         </li>
       </ul>
     </aside>
     <footer>
-      <p>Copyright &copy; 2099 by The Code Magazine.</p>
+      <p id="copyright">Copyright &copy; 2099 by The Code Magazine.</p>
     </footer>
   </body>
 </html>
